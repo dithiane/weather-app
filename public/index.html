@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="results">
+            <div id="formHolder">
+                <form id="form">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" placeholder="Enter zip code here">
+                    <label for="feelings">How are you feeling today?</label>
+                    <textarea id="feelings" placeholder="Enter your feelings here" rows="5" required></textarea>
+                    <button id="generate" type="submit" class="btn">Generate</button>
+                </form>
+            </div>
+            <div id="entryHolder">
+                <div id="weather">
+                    <div id="locationNow"></div>
+                    <div id="iconNow"></div>
+                    <div id="tempNow"></div>
+                    <div id="dateNow"></div>
+                    <div id="contentNow"></div>
+                </div>
+            </div>
+            <div id="history"></div>
+        </section>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>

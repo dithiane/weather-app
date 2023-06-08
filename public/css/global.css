@@ -1,0 +1,37 @@
+/* Global variables and styles */
+
+:root {
+  --light: #ffffff;
+  --dark: #000000;
+  --gray: #828282;
+  --lightSky: #dff2f5;
+  --sky: #86acda;
+  --buttonShadow: #7d6cb921;
+  --darkBackground: #3c294b;
+  --calm: #6487d3;
+  --emptyBackground: rgba(0, 0, 0, 0.411);
+  --font-family: "Poppins", sans-serif;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --text-xlg: 144px;
+  --text-lg: 60px;
+  --text-xmd: 42px;
+  --text-md: 32px;
+  --text-sm: 27px;
+  --text-xsm: 18px;
+  --text-xxsm: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font: var(--font-regular) var(--text-md) var(--font-family);
+  color: var(--dark);
+}
