@@ -7,18 +7,28 @@ This is a web application that allows users to log their feelings and weather in
 To use this application on your local machine, follow these steps:
 
 Clone the repository:
-📋 Copy code
+
+```bash
 git clone https://github.com/your-username/weather-journal-app.git
 Install dependencies:
-📋 Copy code
+```
+
+```bash
 cd weather-journal-app
 npm install
+```
+
 Start the server:
-📋 Copy code
+
+```bash
 npm start
+```
+
 Open the application in your browser:
-📋 Copy code
+
+```bash
 http://localhost:4000/
+```
 
 # Usage
 
