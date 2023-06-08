@@ -4,6 +4,8 @@ This is a web application that allows users to log their feelings and weather in
 
 # Screenshot
 
+[Output]([https://github.com/dithiane/weatherApp/blob/main/public/media/shot1.png])
+
 # Installation
 
 To use this application on your local machine, follow these steps:
