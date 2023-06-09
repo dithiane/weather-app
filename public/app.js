@@ -8,7 +8,8 @@ const date = new Date().toGMTString('en-us', { weekday: "long", year: "numeric",
 //const BASE_URL = `http://localhost:4000`
 const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather`
 const WEATHER_ICONS = `https://openweathermap.org/img/wn/`
-const API_KEY = `0e3bae5f3a94ceee3f46ead6d392e58a`
+//Personal API Key for OpenWeatherMap API
+const apiKey = `0e3bae5f3a94ceee3f46ead6d392e58a&units=imperial`
 
 /**
  * Retrieves weather data from OpenWeatherMap API using the provided zip code.
@@ -17,7 +18,7 @@ const API_KEY = `0e3bae5f3a94ceee3f46ead6d392e58a`
  */
 const retrieveWeatherData = async (zip) => {
     try {
-        const res = await fetch(`${WEATHER_URL}?zip=${zip},us&appid=${API_KEY}&units=imperial`);
+        const res = await fetch(`${WEATHER_URL}?zip=${zip},us&appid=${apiKey}`);
         const data = await res.json();
         return data;
     } catch (error) {
